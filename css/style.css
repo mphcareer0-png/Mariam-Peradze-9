@@ -5,5 +5,34 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+   
 
+}
+
+.plane{
+    height: 100px;
+    animation-name: planemove;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+   
+   
+} 
+
+.animation-block{
+    position: relative;
+    height: 150px;
+}
+@keyframes planemove{
+    from {
+        left: 0px;
+    }
+    to{
+        left: 1000px;
+    }
 }
